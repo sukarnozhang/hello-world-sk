@@ -1,0 +1,13 @@
+{
+  "command": "/home/ops/verdi/ops/hello_world/run_hello_world.sh",
+  "recommended-queues": [ "factotum-job_worker-small" ],
+  "disk_usage":"3GB",
+  "soft_time_limit": 480,
+  "time_limit": 960,
+  "params" : [
+    {
+      "name": "input",
+      "destination": "positional"
+    }
+  ]
+}
